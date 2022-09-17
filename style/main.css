@@ -10,8 +10,10 @@ body {
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
+  background-position: center center;
+  background-attachment: fixed;
   height: 100%;
+  width: 100%;
 }
 
 .content {
@@ -22,9 +24,9 @@ body {
 }
 
 .title {
-  padding: 3rem 0;
+  padding: 8% 0;
   text-transform: capitalize;
-  font-size: 35pt;
+  font-size: 6vh;
   font-weight: 700;
   text-align: left;
 }
@@ -35,9 +37,8 @@ body {
   color: #fff;
   text-transform: capitalize;
   border-radius: 50px;
-  font-size: 3vh !important;
+  font-size: 2.9vh !important;
   text-align: left;
-  width: fit-content;
   margin: auto;
   min-width: 70vw;
 }
@@ -65,11 +66,11 @@ a:hover {
 }
 
 hr {
-  opacity: 0.6;
+  opacity: 0.4;
 }
 .footer {
-  padding: 3rem 0;
-  font-size: 20pt;
+  padding: 5% 0;
+  font-size: 3vh;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -85,5 +86,23 @@ hr {
 @media (min-width: 1100px) {
   .table {
     min-width: 35vw;
+  }
+}
+
+/* screen smaller than 370 px */
+@media (max-width: 370px) {
+  .table {
+    font-size: 22pt !important;
+  }
+  li {
+    padding: 2rem 3rem;
+  }
+  .footer {
+    font-size: 25pt;
+    padding: 2rem 0;
+  }
+  .title {
+    font-size: 35pt;
+    padding: 3rem 0;
   }
 }
