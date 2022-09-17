@@ -35,7 +35,7 @@ body {
   color: #fff;
   text-transform: capitalize;
   border-radius: 50px;
-  font-size: 35pt;
+  font-size: 3vh !important;
   text-align: left;
   width: fit-content;
   margin: auto;
@@ -47,8 +47,7 @@ ul {
 }
 li {
   font-weight: 500;
-  font-size: 30pt;
-  padding: 2rem 3.5rem;
+  padding: 1rem 3rem;
   color: #fff;
 }
 
@@ -85,6 +84,6 @@ hr {
 /* screen larger than 1100 px */
 @media (min-width: 1100px) {
   .table {
-    min-width: 45vw;
+    min-width: 35vw;
   }
 }
