@@ -32,9 +32,7 @@ body {
 }
 
 .table {
-  background-color: rgb(0, 0, 0, 0.4);
   backdrop-filter: blur(8px);
-  color: #fff;
   text-transform: capitalize;
   border-radius: 50px;
   font-size: 2.9vh !important;
@@ -49,17 +47,17 @@ ul {
 li {
   font-weight: 500;
   padding: 1rem 3rem;
-  color: #fff;
 }
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: inherit;
 }
 
 a:visited {
-  color: #fff;
+  color: inherit;
 }
+
 a:hover {
   cursor: pointer;
   color: rgb(0, 0, 0, 0.4);
@@ -68,6 +66,7 @@ a:hover {
 hr {
   opacity: 0.4;
 }
+
 .footer {
   padding: 5% 0;
   font-size: 3vh;
