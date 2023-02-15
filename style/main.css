@@ -24,9 +24,9 @@ body {
 }
 
 .title {
-  padding: 8% 0;
+  padding: 1.7vh 0;
   text-transform: capitalize;
-  font-size: 6vh;
+  font-size: 4.3vh;
   font-weight: 700;
   text-align: left;
 }
@@ -83,6 +83,9 @@ hr {
 
 /* screen larger than 1100 px */
 @media (min-width: 1100px) {
+  .title {
+    font-size: 4.3vw;
+  }
   .table {
     min-width: 35vw;
   }
